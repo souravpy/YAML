@@ -1,1 +1,40 @@
 hello : "hello world"
+
+---
+
+- apple
+- apple
+- apple
+- apple
+- apple
+- apple
+
+---
+#map
+#map value should be unique
+
+number : 222222
+number 1: !!int 222222
+bin_number : !!bin 222222
+number 3: 222222
+number 4: 222222
+number 5: 222222
+number 6: 222222
+---
+#pair
+#one key has a pair of values
+
+example_name : !!pairs
+  - name : hello
+  - name : world
+
+#set = unique data
+names: !!set
+  ? ehll
+  ? world
+  ? abks
+  ? baka
+  ? baki
+  ? bankai
+
+#reusing property
